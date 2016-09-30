@@ -16,6 +16,7 @@ import (
 )
 type CroProgram struct {
 	Data []struct {
+		
 		Description string `json:"description"`
 		ID      int `json:"id"`
 		Since   time.Time `json:"since"`
